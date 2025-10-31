@@ -1,0 +1,143 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: linear-gradient(to bottom right, #4ce738, #28bd2f);
+}
+
+.home {
+    background: linear-gradient(120deg, #25032e, #1b0f2e);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.home span {
+    font-size: 34px;
+    color: rebeccapurple;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 300px;
+    height: 340px;
+    object-fit: cover;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    border: 5px solid #7d7da1;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+}
+
+.about {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: rgb(129, 168, 51);
+    color: #222;
+}
+
+.about h2 {
+    font-size: 44px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about p {
+    font-size: 22px;
+    line-height: 1.8;
+}
+
+.about {
+    background: linear-gradient(to right, #6d541d, #8a9c21);
+    color: #222;
+    text-align: center;
+    padding: 80px 20px;
+    border-top: 5px solid #4a6d1f;
+}
+
+.about h2 {
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #2d2d2d;
+}
+
+.about p {
+    font-size: 20px;
+    line-height: 1.8;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    padding: 20px;
+    display: inline-block;
+    color: #1a1a1a;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.skills {
+    background: linear-gradient(to right, #533f3c, #38219c);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.skills h2 {
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: rgb(27, 7, 48);
+}
+
+.skills h5 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #b58bff;
+}
+
+.skills p {
+    font-size: 15px;
+    color: #ddd;
+}
+
+.contact {
+    background-color: #7d7da1;
+    color: #fff;
+    text-align: center;
+    padding: 70px;
+}
+
+.contact h2 {
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #f8f8f8;
+}
+
+.contact form {
+    background-color: rgb(41, 41, 59) #2d2dd8;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.about p {
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.skills .card {
+    background: linear-gradient(to bottom right, #2d2da1, #7d7da1);
+    border: none;
+    color: rgb(197, 145, 145);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact {
+    background: linear-gradient(145deg, #3a3a60, #7d7da1);
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
