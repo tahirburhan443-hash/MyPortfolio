@@ -8,18 +8,6 @@ body {
     padding: 0;
 }
 
-
-/* ---------- Navbar ---------- */
-
-.container-fluid {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-
-/* ---------- Home Section ---------- */
-
 .home {
     background: linear-gradient(120deg, #25032e, #1b0f2e);
     padding: 100px 20px;
@@ -163,23 +151,4 @@ body {
 
 .contact button:hover {
     background-color: #4e4ee1;
-}
-
-
-/* ---------- Responsive ---------- */
-
-@media (max-width: 768px) {
-    .home {
-        padding: 60px 15px;
-    }
-    .home h3 {
-        font-size: 30px;
-    }
-    .profile-img {
-        width: 220px;
-        height: 250px;
-    }
-    .skills .card {
-        margin-bottom: 20px;
-    }
 }
